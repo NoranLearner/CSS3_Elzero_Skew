@@ -1,0 +1,31 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    overflow: visible;
+}
+
+.skew{
+    height: 180px;
+    background-color: rgb(114, 202, 114);
+    color: #fff;
+    text-align: center;
+}
+
+.skew:hover{
+    -webkit-transform: skew(5deg,5deg);
+    -moz-transform: skew(5deg,5deg);
+    -o-transform: skew(5deg,5deg);
+    -ms-transform: skew(5deg,5deg);
+    transform: skew(5deg,5deg);
+}
